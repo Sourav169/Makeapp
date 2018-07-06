@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    android:background=""
+    tools:context=".RegistrationActivity">
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/etNameid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:minWidth="@dimen/_320sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:textColorHint="#000000"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:minWidth="@dimen/_320sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:textColorHint="#000000"
+
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+ />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:minWidth="@dimen/_320sdp"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="@color/black"
+        android:textColorHint="#000000"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        />
+
+    <Button
+        android:id="@+id/btReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_7sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:minWidth="@dimen/_320sdp"
+        android:textColor="#fff"
+
+        android:textSize="@dimen/_22sdp"
+        android:text="@string/register"
+
+
+         />
+
+    <TextView
+        android:id="@+id/tvSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:gravity="center"
+        android:minWidth="@dimen/_320sdp"
+        android:textSize="@dimen/_22sdp"
+
+        android:layout_marginTop="@dimen/_17sdp"
+        android:text= "already sign in?log in"
+
+        />
+</LinearLayout>

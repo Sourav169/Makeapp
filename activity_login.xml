@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    android:background=""
+    tools:context=".LoginActivity">
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:text="WELCOME TO SIMPLIFIED"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:minWidth="@dimen/_320sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22sdp"
+
+        android:hint="USERNAME"
+        android:textColorHint="#000000"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etuserPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:minWidth="@dimen/_320sdp"
+        android:hint="Password"
+        android:textColorHint="#000000"
+        android:inputType="textPassword"
+
+        />
+
+
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:minWidth="@dimen/_320sdp"
+
+        android:layout_marginTop="@dimen/_17sdp"
+        android:text="Log In"
+        android:textColor="#ffff"
+        android:textSize="@dimen/_16sdp" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textColor="#000000"
+        android:textSize="@dimen/_22sdp"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:textColorHint="#000000"
+        android:text="New user?register"
+
+        />
+
+
+</LinearLayout>

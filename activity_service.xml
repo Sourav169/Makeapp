@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/back"
+    android:padding="@dimen/_15sdp"
+    tools:context=".ServiceActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_60sdp"
+        android:src="@drawable/logo2"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/tvdate"
+        android:textColor="@color/black"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+
+        >
+        <LinearLayout
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+
+
+            >
+            <TextView
+                android:id="@+id/tvOrder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:padding="@dimen/_10sdp"
+                android:text="Generate order"
+                android:gravity="center"
+                android:textSize="@dimen/_20sdp"
+                android:background="#ae56"
+
+
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:padding="@dimen/_8sdp"
+                android:text="Order History"
+                android:gravity="center"
+                android:textSize="@dimen/_20sdp"
+                android:id="@+id/tvOrderHistory"
+                android:background="#ae4"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+
+
+        >
+        <LinearLayout
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+
+
+            >
+            <TextView
+                android:id="@+id/tvOrdertoday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:padding="@dimen/_8sdp"
+                android:text="No of Visits Today"
+                android:gravity="center"
+                android:textSize="@dimen/_20sdp"
+                android:background="#ffff00"
+
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:padding="@dimen/_8sdp"
+                android:text="Total Visits For The Month"
+                android:gravity="center"
+                android:textSize="@dimen/_20sdp"
+
+                android:background="#ff8c00"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logout"
+
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
